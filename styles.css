@@ -6,6 +6,7 @@
   --black: #000;
   --white: #fff;
   --dark-sabre-red: #ff1919;
+  --yoda-sabre-green: #55ff33;
   --font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
   --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
   --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
@@ -59,4 +60,19 @@ body {
 
 .card--dark-side:hover {
   box-shadow: 10px 10px 10px var(--dark-sabre-red);
+}
+
+.card--light-side {
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  color: var(--black);
+}
+
+.card__image--light-side {
+  box-shadow: 5px 10px 20px var(--yoda-sabre-green);
+  border: 2px solid var(--black);
+}
+
+.card--light-side:hover {
+  box-shadow: 10px 10px 10px var(--yoda-sabre-green);
 }
