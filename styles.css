@@ -43,6 +43,7 @@ body {
   box-shadow: 5px 10px 20px #000;
   max-width: 25rem;
   padding-bottom: 1rem;
+  /* height: 550px; */
 }
 
 .card__heading {
