@@ -21,11 +21,17 @@ body {
   width: 50%; */
   text-align: center;
   font-family: var(--main-font);
+  background-image: url("./images/star-wars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
 }
 
 .title {
   font-family: var(--title);
   font-size: var(--font-size-xxl);
+  color: var(--white);
 }
 
 .container {
