@@ -1,7 +1,25 @@
-/* You can delete / re-write this img class  */
-
-img {
-    max-width: 200px;
+:root {
+  --black: #000;
 }
 
-/* Happy coding! */
+body {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.container {
+  gap: 5rem;
+}
+
+.card {
+  border: 2px solid var(--black);
+  margin: 2rem 0;
+  border-radius: 20px;
+  box-shadow: 5px 10px 20px #000;
+}
+.card__image {
+  max-width: 85%;
+  height: auto;
+  border-radius: 20px;
+}
