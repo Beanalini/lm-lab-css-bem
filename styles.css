@@ -88,3 +88,25 @@ body {
   border-radius: 10px;
   border: 2px solid var(--black);
 }
+
+.card__btn--dark-side {
+  border: 2px solid var(--white);
+  color: var(--white);
+  background-color: var(--dark-sabre-red);
+}
+
+.card__btn--dark-side:hover {
+  box-shadow: 5px 5px 5px var(--dark-sabre-red);
+  transform: scaleY(1.2) scaleX(1.2);
+}
+
+.card__btn--light-side {
+  border: 2px solid var(--black);
+  color: var(--white);
+  background-color: var(--yoda-sabre-green);
+}
+
+.card__btn--light-side:hover {
+  box-shadow: 5px 5px 5px var(--yoda-sabre-green);
+  transform: scaleY(1.2) scaleX(1.2);
+}
