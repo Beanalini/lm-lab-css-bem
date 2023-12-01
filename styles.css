@@ -42,6 +42,7 @@ body {
   border-radius: 20px;
   box-shadow: 5px 10px 20px #000;
   max-width: 25rem;
+  padding-bottom: 1rem;
 }
 
 .card__heading {
@@ -80,4 +81,10 @@ body {
 
 .card--light-side:hover {
   box-shadow: 10px 10px 10px var(--yoda-sabre-green);
+}
+
+.card__btn {
+  padding: 2px 5px 5px;
+  border-radius: 10px;
+  border: 2px solid var(--black);
 }
